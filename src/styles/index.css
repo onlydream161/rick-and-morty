@@ -164,7 +164,7 @@
   padding: 12px 16px;
 }
 .caracters__card-name{
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
@@ -507,4 +507,10 @@ letter-spacing: 0.25px;
 }
 .go-back__link:hover{
   cursor: pointer;
+}
+.disabled{
+  opacity: 0.5;
+}
+.disabled:hover{
+  cursor: auto;
 }

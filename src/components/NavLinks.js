@@ -13,7 +13,7 @@ const NavLinks = ({ active, setNav }) => {
             to={CARACTERS}
             onClick={() => setNav(false)}
           >
-            Caracters
+            Characters
           </NavLink>
         </li>
         <li>

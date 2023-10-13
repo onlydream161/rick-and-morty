@@ -40,7 +40,7 @@ const Locations = () => {
         ))}
       </div>
       <button
-        className="button__next"
+        className={pages ? "button__next" : "button__next disabled"}
         onClick={() => {
           dispatch(getPage(pages));
         }}
